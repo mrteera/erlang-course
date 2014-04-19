@@ -5,6 +5,8 @@ by @iporsut
 
 Original Repository: https://github.com/iporsut/ErlangCourse
 
+**Course Outline**
+
 - Why Erlang?
 - What is Functional Programming
 - Erlang Shell
