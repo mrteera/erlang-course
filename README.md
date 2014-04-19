@@ -31,3 +31,7 @@ Original Repository: https://github.com/iporsut/ErlangCourse
 
 ** Second Day **
 - TBC
+
+TODO:
+
+- Add notes from notebook
