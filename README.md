@@ -29,9 +29,10 @@ Original Repository: https://github.com/iporsut/ErlangCourse
 - broadcast.erl
 - chat.erl
 
-** Second Day **
+**Second Day**
+
 - TBC
 
-TODO:
+**TODO:**
 
 - Add notes from notebook
