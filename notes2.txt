@@ -1,0 +1,36 @@
+# Rebar - Sophisticated build-tool for Erlang projects that follows OTP principles
+git clone https://github.com/basho/rebar
+cd rebar && ./bootstrap
+sudo cp rebar /usr/local/bin
+
+# at repo
+mkdir list_app && cd list_app
+rebar create-app appid=list_app
+# after finish edit
+cd ..
+rebar compile
+
+# p = path
+erl -pa ./ebin
+
+application:start(list_app).
+gen_server:call(list_server, get_all).
+
+# at list_app dir
+mkdir rel
+# for release
+cd rel
+rebar create-node nodeid=list_app
+vi reltool.config
+# 27        {app, list_app, [{mod_cond, app}, {incl_cond, include}]}
+# 27        {app, list_app, [{mod_cond, app}, {incl_cond, include}, {lib_dir,".."}]}
+cd ..
+vi rebar.config
+#{sub_dirs, ["rel"]}.
+rebar generate
+
+# to start
+cd list_app/rel/list_app/bin
+
+./list_app start
+./list_app stop

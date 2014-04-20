@@ -4,3 +4,14 @@ deps
 *.beam
 *.plt
 erl_crash.dump
+# for rebar
+rebar
+*~
+*.orig
+.*.swp
+rt.work
+.test
+dialyzer_warnings
+rebar.cmd
+.eunit
+deps
