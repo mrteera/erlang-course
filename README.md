@@ -5,6 +5,8 @@ by @iporsut
 
 Original Repository: https://github.com/iporsut/ErlangCourse
 
+Blog: http://iporsut.blogspot.com/search/label/erlang
+
 **Course Outline**
 
 - Why Erlang?
@@ -31,8 +33,14 @@ Original Repository: https://github.com/iporsut/ErlangCourse
 
 **Second Day**
 
-- TBC
+- genserver.erl
+- record.hrl
+- server.erl
+- tennis.erl
+- trainning.erl
+- list_app
 
 **TODO:**
 
 - Add notes from notebook
+- rebar generate still not work (Erlang 17.0-dfsg-1)
