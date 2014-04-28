@@ -44,3 +44,10 @@ Blog: http://iporsut.blogspot.com/search/label/erlang
 
 - Add notes from notebook
 - rebar generate still not work (Erlang 17.0-dfsg-1)
+- 
+
+** More content ** 
+
+- http://iporsut.blogspot.com/search/label/erlang
+- http://www.somkiat.cc/learn-erlang-day1/
+- http://www.somkiat.cc/learn-erlang-day-2/
