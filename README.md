@@ -3,7 +3,10 @@ Erlang Course
 
 by @iporsut
 
-Original Repository: https://github.com/iporsut/ErlangCourse
+Original Repository: 
+
+- https://github.com/iporsut/ErlangCourse
+- https://github.com/iporsut/Erlang-List-App-Server
 
 Blog: http://iporsut.blogspot.com/search/label/erlang
 
